@@ -1,4 +1,6 @@
 ﻿using System;
+using GraphQL;
+using GraphQL.Types;
 
 namespace App {
     class Program {
