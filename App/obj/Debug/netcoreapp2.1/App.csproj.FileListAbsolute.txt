@@ -2,3 +2,10 @@ C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.csprojAssemblyRef
 C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.csproj.CoreCompileInputs.cache
 C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.AssemblyInfoInputs.cache
 C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.AssemblyInfo.cs
+C:\dev\GraphQLDemo\GraphQLDemo\App\bin\Debug\netcoreapp2.1\App.deps.json
+C:\dev\GraphQLDemo\GraphQLDemo\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.json
+C:\dev\GraphQLDemo\GraphQLDemo\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.dev.json
+C:\dev\GraphQLDemo\GraphQLDemo\App\bin\Debug\netcoreapp2.1\App.dll
+C:\dev\GraphQLDemo\GraphQLDemo\App\bin\Debug\netcoreapp2.1\App.pdb
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.dll
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.pdb
