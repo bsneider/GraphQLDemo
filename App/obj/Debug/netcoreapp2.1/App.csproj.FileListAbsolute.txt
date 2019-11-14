@@ -1,0 +1,4 @@
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.csprojAssemblyReference.cache
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.csproj.CoreCompileInputs.cache
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.AssemblyInfoInputs.cache
+C:\dev\GraphQLDemo\GraphQLDemo\App\obj\Debug\netcoreapp2.1\App.AssemblyInfo.cs

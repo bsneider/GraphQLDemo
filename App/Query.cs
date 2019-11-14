@@ -1,3 +1,7 @@
+using System;
+using GraphQL;
+using GraphQL.Types;
+
 namespace App
 {
     public class Query
