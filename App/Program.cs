@@ -9,21 +9,23 @@ namespace App
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var schema =
-                Schema.For(@"
+            var schema = Schema.For(@"
   type Jedi {
       name: String,
-      side: String
+      side: String,
+      id: ID
   }
 
   type Query {
       hello: String,
-      jedis: [Jedi]
+      jedis: [Jedi],
+      jedi(id: ID): Jedi
   }
   ", _ =>
-                {
-                    _.Types.Include<Query>();
-                });
+{
+    _.Types.Include<Query>();
+});
+
 
             var root = new { Hello = "Hello World!" };
             var json = schema.Execute(_ =>
