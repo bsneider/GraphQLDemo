@@ -6,11 +6,20 @@ namespace App {
     class Program {
         static void Main (string[] args) {
             Console.WriteLine ("Hello World!");
-            var schema = Schema.For (@"
-          type Query {
-              hello: String
-          }
-          ");
+            var schema =
+                Schema.For (@"
+  type Jedi {
+      name: String,
+      side: String
+  }
+
+  type Query {
+      hello: String,
+      jedis: [Jedi]
+  }
+  ", _ => {
+                    _.Types.Include<Query> ();
+                });
 
             var root = new { Hello = "Hello World!" };
             var json = schema.Execute (_ => {
