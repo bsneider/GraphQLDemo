@@ -30,7 +30,7 @@ namespace App
             var root = new { Hello = "Hello World!" };
             var json = schema.Execute(_ =>
             {
-                _.Query = "{ jedis { name, side } }";
+                _.Query = "{ jedis { name, side, id } }";
             });
 
             Console.WriteLine(json);
